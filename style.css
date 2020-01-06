@@ -19,6 +19,7 @@
 	margin-left: 40px;
 	background-color: #D3D3D3;
 	margin-right: 70px;
+	border-right: 5px solid red;
 }
 .post {
 	margin-right: 40px;
@@ -26,13 +27,8 @@
 .color_grey {
 	background-color: #D3D3D3;
 }
-.menu {
-	background-color : "white";
-	position: sticky; 
-}
-.ul {
-	float: left;
-	width: 25%;
+.color_pink {
+	background-color: #FFE4C4;
 	text-align: center;
 }
 
