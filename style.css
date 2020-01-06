@@ -1,6 +1,7 @@
 .inline {
 	display: inline;
 	margin : 4px;
+	text-align: center;
 }
 .img {
 	text-decoration: none
@@ -19,4 +20,7 @@
 }
 .post {
 	margin-right: 40px;
+}
+.color_grey {
+	background-color: #D3D3D3;
 }
