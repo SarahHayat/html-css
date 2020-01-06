@@ -103,96 +103,109 @@
     </header>
 
     <form method="post">
-        <h2>Vos coordonnées</h2>
 
-        <input type="radio" id="madame" name="civilite" value="madame" />
-        <label for="madame">Madame</label>
-        <input type="radio" id="monsieur" name="civilite" value="madame" />
-        <label for="madame">Monsieur</label>
-        <label for="nom">Nom</label>
-        <input type="text" id="nom" placeholder="Nom">
-        <label for="prenom">Prénom</label>
-        <input type="text" id="prenom" placeholder="Prénom">
-        <label for="adresse">Adresse</label>
-        <input type="text" id="adresse" placeholder="Adresse">
-        <label for="cp">Code postal</label>
-        <input type="text" id="cp" placeholder="Code postal">
-        <label for="ville">Ville</label>
-        <input type="text" id="ville" placeholder="Ville">
-        <label for="telfixe">Tél. fixe</label>
-        <input type="tel" id="telfixe" placeholder="Tél. fixe">
-        <label for="portable">Portable</label>
-        <input type="tel" id="portable" placeholder="Portable">
-        <label for="mail">E-mail</label>
-        <input type="email" id="mail" placeholder="E-mail">
-        <label for="datenaissance">Date de naissance</label>
-        <input type="date" id="datenaissance" placeholder="Date de naissance">
-        <label for="nationalité">Nationalité</label>
-        <input type="radio" id="francaise" name="nationalité" value="francaise" />
-        <label for="francaise">Française</label>
-        <input type="radio" id="UE" name="nationalité" value="UE" />
-        <label for="UE">UE</label>
-        <input type="radio" id="horsUE" name="nationalité" value="horsUE" />
-        <label for="horsUE">Hors UE</label>
+        <section class="contact details">
+            <h2>Vos coordonnées</h2>
 
-        <h2>Votre scolarité</h2>
-        <label for="formationact">Niveau de formation actuel</label>
-        <input type="text" id="formationact" name="formationact" placeholder="Niveau actuel" />
-        <label for="etablissact">Etablissement actuel (nom et ville)</label>
-        <input type="text" id="etablissact" name="etablissact" placeholder="Etablissement actuel" />
-        <label for="dernierdiplome">Dernier diplôme obtenu</label>
-        <input type="text" id="dernierdiplome" name="dernierdiplome" placeholder="Dernier diplôme" />
+            <input type="radio" id="madame" name="civility" value="madame" />
+            <label for="madame">Madame</label>
+            <input type="radio" id="monsieur" name="civility" value="madame" />
+            <label for="madame">Monsieur</label>
+            <label for="last name">Nom</label>
+            <input type="text" id="last name" placeholder="Nom">
+            <label for="first name">Prénom</label>
+            <input type="text" id="first name" placeholder="Prénom">
+            <label for="adress">Adresse</label>
+            <input type="text" id="adress" placeholder="Adresse">
+            <label for="pc">Code postal</label>
+            <input type="text" id="pc" placeholder="Code postal">
+            <label for="city">Ville</label>
+            <input type="text" id="city" placeholder="Ville">
+            <label for="phone">Tél. fixe</label>
+            <input type="tel" id="phone" placeholder="Tél. fixe">
+            <label for="cellphone">Portable</label>
+            <input type="tel" id="cellphone" placeholder="Portable">
+            <label for="mail">E-mail</label>
+            <input type="email" id="mail" placeholder="E-mail">
+            <label for="birth date">Date de naissance</label>
+            <input type="date" id="birth date" placeholder="Date de naissance">
+            <label for="nationality">Nationalité</label>
+            <input type="radio" id="francaise" name="nationality" value="francaise" />
+            <label for="francaise">Française</label>
+            <input type="radio" id="UE" name="nationality" value="UE" />
+            <label for="UE">UE</label>
+            <input type="radio" id="horsUE" name="nationality" value="horsUE" />
+            <label for="horsUE">Hors UE</label>
+        </section>
 
+        <section class="contact details">
+            <h2>Votre scolarité</h2>
+            <label for="current training">Niveau de formation actuel</label>
+            <input type="text" id="current training" name="current training" placeholder="Niveau actuel" />
+            <label for="etablissact">Etablissement actuel (nom et ville)</label>
+            <input type="text" id="current establishment" name="current establishment"
+                placeholder="Etablissement actuel" />
+            <label for="dernierdiplome">Dernier diplôme obtenu</label>
+            <input type="text" id="last diploma" name="last diploma" placeholder="Dernier diplôme" />
+        </section>
+
+        <section class="other choice"></section>
         <h2>Vos autres souhaits de formation à ITESCIA</h2>
-        <label for="souhait2">N°2</label>
-        <input type="text" id="souhait2" name="souhait2" />
-        <label for="souhait2info">Niveau d'entrée (à entourer) : L1/L2/L3/M1/M2</label>
-        <label for="souhait3">N°3</label>
-        <input type="text" id="souhait3" name="souhait3" />
-        <label for="souhait3info">Niveau d'entrée (à entourer) : L1/L2/L3/M1/M2</label>
+        <label for="wish 2">N°2</label>
+        <input type="text" id="wish 2" name="wish 2" />
+        <label for="wish2info">Niveau d'entrée (à entourer) : L1/L2/L3/M1/M2</label>
+        <label for="wish3">N°3</label>
+        <input type="text" id="wish2" name="wish3" />
+        <label for="wish3info">Niveau d'entrée (à entourer) : L1/L2/L3/M1/M2</label>
+        </section>
 
+        <section class="sponsor"></section>
         <h2>Votre parrain à ITESCIA</h2>
-        <label for="nomparrain">Nom, prénom : </label>
-        <input type="text" id="nomparrain" name="nomparrain" />
-        <label for="formationparrain">Formation suivie : </label>
-        <input type="text" id="formationparrain" name="formationparrain" />
+        <label for="sponsor name">Nom, prénom : </label>
+        <input type="text" id="sponsor name" name="sponsor name" />
+        <label for="sponsor training">Formation suivie : </label>
+        <input type="text" id="sponsor training" name="sponsor training" />
+        </section>
 
+        <section class="continuing education"></section>
         <h3>Formation continue :</h3>
         <label for="CG">Contrôleur de Gestion</label>
-        <input type="radio" id="vae" name="formationc" value="vae" />
+        <input type="radio" id="vae" name="continuing education" value="vae" />
         <label for="CG">VAE</label>
-        <input type="radio" id="parttime" name="formationc" value="parttime" />
+        <input type="radio" id="parttime" name="continuing education" value="parttime" />
         <label for="QHSE">Responsable Management QHSE</label>
-        <input type="radio" id="vae" name="formationc" value="vae" />
+        <input type="radio" id="vae" name="continuing education" value="vae" />
         <label for="CG">VAE</label>
-        <input type="radio" id="parttime" name="formationc" value="parttime" />
+        <input type="radio" id="parttime" name="continuing education" value="parttime" />
         <label for="QHSE">Part-time</label>
         <label for="MII">Manager en Ingénierie Informatique</label>
-        <input type="radio" id="vae" name="formationc" value="vae" />
+        <input type="radio" id="vae" name="continuing education" value="vae" />
         <label for="MII">VAE</label>
-        <input type="radio" id="parttime" name="formationc" value="parttime" />
+        <input type="radio" id="parttime" name="continuing education" value="parttime" />
         <label for="MII">Part-time</label>
         <label for="BA">Business Analyst</label>
-        <input type="radio" id="parttime" name="formationc" value="parttime" />
+        <input type="radio" id="parttime" name="continuing education" value="parttime" />
         <label for="BA">Part-time</label>
         <label for="manager">Manager de la sécurité des risques de l'information</label>
-        <input type="radio" id="parttime" name="formationc" value="partime" />
+        <input type="radio" id="parttime" name="continuing education" value="partime" />
         <label for="parttime">Part-time </label>
+        </section>
 
+        <section class="situation"></section>
         <h3>Votre situation</h3>
-        <input type="radio" id="salarie" name="situation" value="salarie" />
-        <label for="salarie">Salarié(e) de l'entreprise : </label>
-        <input type="text" id="salarie" name="salarie" />
-        <input type="radio" id="demandeuremploi" name="situation" value="demandeuremploi" />
-        <label for="demandeuremploi">Demandeur d'emploi : </label>
-        <input type="text" id="demandeuremploi" name="salarie" />
-        <input type="radio" id="particulier" name="situation" value="particulier" />
-        <label for="particulier">Particulier : </label>
-        <input type="text" id="particulier" name="salarie" />
-        <input type="radio" id="autre" name="situation" value="autre" />
-        <label for="autre">Autre : </label>
-        <input type="text" id="autre" name="salarie" />
-
+        <input type="radio" id="salaried" name="situation" value="salaried" />
+        <label for="salaried">Salarié(e) de l'entreprise : </label>
+        <input type="text" id="salaried" name="situation" />
+        <input type="radio" id="Jobseeker" name="situation" value="Jobseeker" />
+        <label for="Jobseeker">Demandeur d'emploi : </label>
+        <input type="text" id="Jobseeker" name="situation" />
+        <input type="radio" id="particular" name="situation" value="particular" />
+        <label for="particular">Particulier : </label>
+        <input type="text" id="particular" name="situation" />
+        <input type="radio" id="other" name="situation" value="other" />
+        <label for="other">Autre : </label>
+        <input type="text" id="other" name="situation" />
+        </section>
 
 
         <footer>
