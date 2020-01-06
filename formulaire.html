@@ -14,13 +14,13 @@
         <h1 class="center">Formulaire de contact ITESCIA</h1>
         <div class="flex">
             <img src="images/itescia.png" height="200" width="200">
-            <nav >
-					<ul class="ul">
-                    	<li><a href="https://www.itescia.fr/"> Itescia </a></li>
-                    	<li><a href="formulaire.html#header">Formulaire</a></li>
-                	</ul>  
-            </nav>  
-            
+            <nav>
+                <ul class="ul">
+                    <li><a href="https://www.itescia.fr/"> Itescia </a></li>
+                    <li><a href="formulaire.html#header">Formulaire</a></li>
+                </ul>
+            </nav>
+
 
         </div>
 
@@ -107,7 +107,7 @@
 
                 <input type="radio" id="madame" name="civility" value="madame" required />
                 <label for="madame">Madame</label>
-                <input type="radio" id="monsieur" name="civility" value="madame" required />
+                <input type="radio" id="monsieur" name="civility" value="monsieur" required />
                 <label for="madame">Monsieur</label>
                 <label for="last_name">Nom</label>
                 <input type="text" id="last_name" placeholder="Nom" required>
@@ -122,7 +122,7 @@
                 <label for="phone">Tél. fixe</label>
                 <input type="tel" id="phone" placeholder="Tél. fixe">
                 <label for="cellphone">Portable</label>
-                <input type="tel" id="cellphone" placeholder="Portable">
+                <input type="tel" id="cellphone" placeholder="Portable" required>
                 <label for="mail">E-mail</label>
                 <input type="email" id="mail" placeholder="E-mail" required>
                 <label for="birth_date">Date de naissance</label>
@@ -165,90 +165,91 @@
             <input type="text" id="sponsor_training" name="sponsor_training" />
             </section>
 
-    <div class="color_grey">
-        <section class="continuing_education">
-        <h3>Formation continue :</h3>
-        <label for="CG">Contrôleur de Gestion</label>
-        <input type="radio" id="vae" name="continuing_education" value="vae" />
-        <label for="CG">VAE</label>
-        <input type="radio" id="parttime" name="continuing_education" value="parttime" />
-        <label for="QHSE">Responsable Management QHSE</label>
-        <input type="radio" id="vae" name="continuing_education" value="vae" />
-        <label for="CG">VAE</label>
-        <input type="radio" id="parttime" name="continuing_education" value="parttime" />
-        <label for="QHSE">Part-time</label>
-        <label for="MII">Manager en Ingénierie Informatique</label>
-        <input type="radio" id="vae" name="continuing_education" value="vae" />
-        <label for="MII">VAE</label>
-        <input type="radio" id="parttime" name="continuing_education" value="parttime" />
-        <label for="MII">Part-time</label>
-        <label for="BA">Business Analyst</label>
-        <input type="radio" id="parttime" name="continuing_education" value="parttime" />
-        <label for="BA">Part-time</label>
-        <label for="manager">Manager de la sécurité des risques de l'information</label>
-        <input type="radio" id="parttime" name="continuing_education" value="partime" />
-        <label for="parttime">Part-time </label>
-        </section>
+            <div class="color_grey">
+                <section class="continuing_education">
+                    <h3>Formation continue :</h3>
+                    <label for="CG">Contrôleur de Gestion</label>
+                    <input type="radio" id="vae" name="continuing_education" value="vae" />
+                    <label for="CG">VAE</label>
+                    <input type="radio" id="parttime" name="continuing_education" value="parttime" />
+                    <label for="QHSE">Responsable Management QHSE</label>
+                    <input type="radio" id="vae" name="continuing_education" value="vae" />
+                    <label for="CG">VAE</label>
+                    <input type="radio" id="parttime" name="continuing_education" value="parttime" />
+                    <label for="QHSE">Part-time</label>
+                    <label for="MII">Manager en Ingénierie Informatique</label>
+                    <input type="radio" id="vae" name="continuing_education" value="vae" />
+                    <label for="MII">VAE</label>
+                    <input type="radio" id="parttime" name="continuing_education" value="parttime" />
+                    <label for="MII">Part-time</label>
+                    <label for="BA">Business Analyst</label>
+                    <input type="radio" id="parttime" name="continuing_education" value="parttime" />
+                    <label for="BA">Part-time</label>
+                    <label for="manager">Manager de la sécurité des risques de l'information</label>
+                    <input type="radio" id="parttime" name="continuing_education" value="partime" />
+                    <label for="parttime">Part-time </label>
+                </section>
 
-        <section class="situation">
-        <h3>Votre situation</h3>
-        <input type="radio" id="salaried" name="situation" value="salaried" />
-        <label for="salaried">Salarié(e) de l'entreprise : </label>
-        <input type="text" id="salaried" name="situation" />
-        <input type="radio" id="jobseeker" name="situation" value="Jobseeker" />
-        <label for="Jobseeker">Demandeur d'emploi : </label>
-        <input type="text" id="jobseeker" name="situation" />
-        <input type="radio" id="particular" name="situation" value="particular" />
-        <label for="particular">Particulier : </label>
-        <input type="text" id="particular" name="situation" />
-        <input type="radio" id="other" name="situation" value="other" />
-        <label for="other">Autre : </label>
-        <input type="text" id="other" name="situation" />
-        </section>
+                <section class="situation">
+                    <h3>Votre situation</h3>
+                    <input type="radio" id="salaried" name="situation" value="salaried" />
+                    <label for="salaried">Salarié(e) de l'entreprise : </label>
+                    <input type="text" id="salaried" name="situation" />
+                    <input type="radio" id="jobseeker" name="situation" value="Jobseeker" />
+                    <label for="Jobseeker">Demandeur d'emploi : </label>
+                    <input type="text" id="jobseeker" name="situation" />
+                    <input type="radio" id="particular" name="situation" value="particular" />
+                    <label for="particular">Particulier : </label>
+                    <input type="text" id="particular" name="situation" />
+                    <input type="radio" id="other" name="situation" value="other" />
+                    <label for="other">Autre : </label>
+                    <input type="text" id="other" name="situation" />
+                </section>
+            </div>
+            <input type="submit" value="Valider" />
     </div>
-</div>       
 
- <footer class="center">
-  <div>
-  	<p>
-	Contact information: <a href="cvanmastrigt@itescia.fr"> cvanmastrigt@itescia.fr</a>
-	</p>
+    <footer class="center">
+        <div>
+            <p>
+                Contact information: <a href="cvanmastrigt@itescia.fr"> cvanmastrigt@itescia.fr</a>
+            </p>
 
-	
-	<h3>Réseaux sociaux :</h3>
-	<ul >
-	 <li class ="inline">
-	 	  <a class="img" href ="https://www.facebook.com/itescia/" >
-	 	  	<img src="images/facebook.png" height="40px" width="40px" alt="Facebook">
-	 	  </a>  
-	 </li>
-	 <li class ="inline">
-	 	<a class="img" href="https://twitter.com/ITESCIA"> 
-	 		<img src="images/twitter.png" height="40px" width="40px" alt="Twitter">
-	 	</a>
-	 </li>
-	 
-	 <li class ="inline">
-	 	<a class="img" href="https://www.linkedin.com/school/itescia/">
- 	 		<img src="images/linkedin.png" height="40px" width="40px" alt="Linkedin">
- 	 	</a>
-	 </li>
 
-	 <li class ="inline">
-	 	<a class="img" href="https://www.instagram.com/itescia_officiel/">
-	 		<img src="images/instagram.png"height="40px" width="40px"  alt="Instagram">
-	 	</a>
-	 </li>
+            <h3>Réseaux sociaux :</h3>
+            <ul>
+                <li class="inline">
+                    <a class="img" href="https://www.facebook.com/itescia/">
+                        <img src="images/facebook.png" height="40px" width="40px" alt="Facebook">
+                    </a>
+                </li>
+                <li class="inline">
+                    <a class="img" href="https://twitter.com/ITESCIA">
+                        <img src="images/twitter.png" height="40px" width="40px" alt="Twitter">
+                    </a>
+                </li>
 
-	 <li class ="inline">
-	 	<a class="img" href="https://www.youtube.com/channel/UCAhB6gZz4lFwtbXqhzkyVDg">
-	 		<img src="images/youtube.png" height="40px" width="40px" alt="Youtube">
-	 	</a>
-	 </li>
-	</ul>
-	
-  </div>
-</footer>
+                <li class="inline">
+                    <a class="img" href="https://www.linkedin.com/school/itescia/">
+                        <img src="images/linkedin.png" height="40px" width="40px" alt="Linkedin">
+                    </a>
+                </li>
+
+                <li class="inline">
+                    <a class="img" href="https://www.instagram.com/itescia_officiel/">
+                        <img src="images/instagram.png" height="40px" width="40px" alt="Instagram">
+                    </a>
+                </li>
+
+                <li class="inline">
+                    <a class="img" href="https://www.youtube.com/channel/UCAhB6gZz4lFwtbXqhzkyVDg">
+                        <img src="images/youtube.png" height="40px" width="40px" alt="Youtube">
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </footer>
 </body>
 
 
