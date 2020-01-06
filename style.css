@@ -17,6 +17,8 @@
 .first_choice {
 	width: 180%;
 	margin-left: 40px;
+	background-color: #D3D3D3;
+	margin-right: 70px;
 }
 .post {
 	margin-right: 40px;
