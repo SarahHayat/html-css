@@ -59,6 +59,7 @@
 .col_menu {
 	flex-basis: 15%;
 	height: 80px;
+}
 
 input{
 	margin: 5px 5px 5px 5px;
@@ -71,23 +72,17 @@ input{
 	display: inline-block;
 }
 
-}
 .col_title {
 	
 	text-align: center;
 }
 
-
-
 .menu {
-margin-top: 0;
-
-
+	margin-top: 0;
 }
 
 .menu .container {
 	position: absolute;
-
 	display: block;
 	min-height: 100px;
 	width: 100px;
