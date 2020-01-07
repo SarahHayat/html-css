@@ -11,12 +11,8 @@
 
 }
 .first_choice {
-	width: 50%;
-	margin-left: 40px;
-	background-color: #D3D3D3;
-	margin-right: 100px;
 	border-right: 5px solid #cf092f;
-	border-radius: 10px;
+	flex: 1;
 }
 .information {
 
@@ -48,3 +44,27 @@
 flex: 1;
 }
 
+input{
+	margin: 5px 5px 5px 5px;
+	border-radius: 8px;
+	border:1px ridge black;
+	padding: 5px 5px 5px 5px;
+}
+.label-cordonnées{
+	min-width: 125px;
+	display: inline-block;
+}
+
+.label-scolarité{
+	min-width: 235px;
+	display: inline-block;
+}
+.label-parrain{
+	min-width: 121px;
+	display: inline-block;
+}
+
+.label-situation{
+	min-width: 168px;
+	display: inline-block;
+}
