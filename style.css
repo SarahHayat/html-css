@@ -11,7 +11,7 @@
 
 }
 .first_choice {
-	width: 180%;
+	width: 50%;
 	margin-left: 40px;
 	background-color: #D3D3D3;
 	margin-right: 100px;
@@ -32,5 +32,4 @@
 .title {
 	text-align: center;
 }
-
 
