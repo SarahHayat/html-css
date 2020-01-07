@@ -6,10 +6,6 @@
 .img {
 	text-decoration: none
 }
-.center {
-	text-align: center;
-	margin: auto;
-}
 .flex {
 	display: flex;
 
@@ -18,17 +14,23 @@
 	width: 180%;
 	margin-left: 40px;
 	background-color: #D3D3D3;
-	margin-right: 70px;
+	margin-right: 100px;
 	border-right: 5px solid red;
+	border-radius: 10px;
 }
-.post {
+.information {
 	margin-right: 40px;
+	border-radius: 10px;
 }
-.color_grey {
+.education_situation {
 	background-color: #D3D3D3;
 }
-.color_pink {
+.footer {
 	background-color: #FFE4C4;
 	text-align: center;
 }
+.title {
+	text-align: center;
+}
+
 
