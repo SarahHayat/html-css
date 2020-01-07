@@ -19,8 +19,9 @@
 	border-radius: 10px;
 }
 .information {
-	margin-right: 40px;
-	border-radius: 10px;
+
+	flex: 1;
+	margin-left: 3%;
 }
 .education_situation {
 	background-color: #D3D3D3;
@@ -31,5 +32,19 @@
 }
 .title {
 	text-align: center;
+}
+.header {
+	background-image:url(images/bandeau.png);
+	background-blend-mode: 40%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.pages{
+	display: flex;
+	background-color: #DCDCDC;
+
+}
+.col {
+flex: 1;
 }
 
