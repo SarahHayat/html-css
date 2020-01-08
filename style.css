@@ -102,7 +102,7 @@
 	padding: 10px;
 }
 .first_choice {
-	border-right: 5px solid #cf092f;
+	border-right: 5px solid #cf092f;padding-right: 10px;
 }
 .back_gestion {
 	display: inline-block;
@@ -110,10 +110,17 @@
 	border-radius: 20%;
 	border-radius: 10px 100px / 120px;
 	width: 350px;
+	margin-top: 10px;
 }
 .gestion {
 	color: #FBFFFB;
 	margin: 7px;
+}
+.fond_gestion {
+	background-color: rgba(246, 149, 2, 0.21);
+	border-radius: 20px;
+	padding-left: 10px;
+	margin-top: 10px;
 }
 .back_management {
 	display: inline-block;
@@ -127,6 +134,12 @@
 	color: #FBFFFB;
 	margin: 7px;
 }
+.fond_management {
+	background-color: rgba(160, 246, 9, 0.21);
+	border-radius: 20px;
+	margin-top: 5px;
+	padding-left: 10px;
+}
 .back_informatique{
 	display: inline-block;
 	background-color: #23BAEF;
@@ -134,11 +147,18 @@
 	border-radius: 10px 100px / 120px;
 	width: 350px;
 	margin-top: 10px;
+	padding-left: 10px;
 }
 .informatique {
 	color: #FBFFFB;
 	margin: 7px;
 
+}
+.fond_informatique {
+	background-color: rgba(51, 210, 246, 0.21);
+	border-radius: 20px;
+	margin-top: 5px;
+	padding-left: 10px;
 }
 .education_situation {
 	background-color: #D3D3D3;
