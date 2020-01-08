@@ -171,7 +171,7 @@ input{
 }
 .col-1{
 	flex-basis: 50%;
-
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .col-2{
 	flex-basis: 25%;
