@@ -390,3 +390,26 @@ input{
 	}
 }
 
+@media (min-width: 1080px) and (max-width: 1250px)
+{
+	.banner {width: 70%; height: 70%; margin-left:10%; margin-top:1%;}
+}
+
+@media (min-width: 980px) and (max-width: 1080px)
+{
+	.banner {width: 70%; height: 70%; margin-left:15%; margin-top:1%;}
+}
+
+@media (min-width: 780px) and (max-width: 980px)
+{
+	.banner {width: 40%; height: 40%; margin-left: 30%; margin-top:3%;}
+}
+
+@media screen and (max-width: 780px)
+{
+	.banner { display: none}
+	.col_logo {margin-right: 5%;}
+	.row{flex-wrap: wrap;}
+	.col-1 {flex-basis: 100%;}
+	.first_choice {border-right: none;}
+}
