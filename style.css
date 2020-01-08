@@ -111,6 +111,8 @@
 	border-radius: 10px 100px / 120px;
 	width: 350px;
 	margin-top: 10px;
+	box-shadow: 5px 5px 10px grey;
+	margin-bottom: 5px;
 }
 .gestion {
 	color: #FBFFFB;
@@ -120,7 +122,8 @@
 	background-color: rgba(246, 149, 2, 0.21);
 	border-radius: 20px;
 	padding-left: 10px;
-	margin-top: 10px;
+	margin: 10px 0px 10px 0px;
+	box-shadow: 5px 5px 13px grey;
 }
 .back_management {
 	display: inline-block;
@@ -129,6 +132,8 @@
 	border-radius: 10px 100px / 120px;
 	width: 350px;
 	margin-top: 10px;
+	box-shadow: 5px 5px 10px grey;
+	margin-bottom: 5px;
 }
 .management{
 	color: #FBFFFB;
@@ -137,8 +142,9 @@
 .fond_management {
 	background-color: rgba(160, 246, 9, 0.21);
 	border-radius: 20px;
-	margin-top: 5px;
+	margin: 10px 0px 10px 0px;
 	padding-left: 10px;
+	box-shadow: 5px 5px 13px grey;
 }
 .back_informatique{
 	display: inline-block;
@@ -148,6 +154,8 @@
 	width: 350px;
 	margin-top: 10px;
 	padding-left: 10px;
+	margin-bottom: 5px;
+	box-shadow: 5px 5px 10px grey;
 }
 .informatique {
 	color: #FBFFFB;
@@ -157,8 +165,9 @@
 .fond_informatique {
 	background-color: rgba(51, 210, 246, 0.21);
 	border-radius: 20px;
-	margin-top: 5px;
+	margin: 10px 0px 10px 0px;
 	padding-left: 10px;
+	box-shadow: 5px 5px 13px grey;
 }
 .education_situation {
 	background-color: #D3D3D3;
