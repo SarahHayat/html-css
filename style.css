@@ -16,6 +16,34 @@ p{
 	flex:1;
 	border-right: 5px solid #cf092f;
 }
+
+.gestion {
+	display: inline-block;
+	background-color: #F69D25;
+	color: #FBFFFB;
+	border-radius: 20%;
+	padding: 7px;
+	padding-right: 192px;
+	border-radius: 10px 100px / 120px;
+}
+.management{
+	display: inline-block;
+	background-color: #C6D300;
+	color: #FBFFFB;
+	border-radius: 20%;
+	padding: 7px;
+	padding-right: 160px;
+	border-radius: 10px 100px / 120px;
+}
+.informatique {
+	display: inline-block;
+	background-color: #23BAEF;
+	color: #FBFFFB;
+	border-radius: 20%;
+	padding: 7px;
+	padding-right: 160px;
+	border-radius: 10px 100px / 120px;
+}
 .education_situation {
 	background-color: #D3D3D3;
 }
@@ -29,6 +57,11 @@ p{
 .col_address{
 	flex-basis: 50%;
 	margin-top: 17px;
+}
+.col_address a{
+	text-decoration: none;
+	color: #D3D3D3;
+	display: inline-block;
 }
 .mail p {
 	padding-top: 5px;
