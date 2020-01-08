@@ -458,31 +458,31 @@
                             <select name="choice-2" id="choice-2">
                                 <option value="bts_cg">BTS CG</option>
                                 <option value="dcg">DCG</option>
-                                <option value="Contrôleur de Gestion">Contrôleur de Gestion</option>
-                                <option value="DSCG">DSCG</option>
-                                <option value="Responsable de systèmes de management QHSE">Responsable de systèmes de management QHSE</option>
-                                <option value="Responsable Ressources Humaines">Responsable Ressources Humaines</option>
-                                <option value="Manager Qualité et Processus Intelligents ">Manager Qualité et Processus Intelligents</option>
-                                <option value="BTS SIO, option SISR ou SLAM">BTS SIO, option SISR ou SLAM</option>
-                                <option value="Codeur Informatique">Codeur Informatique</option>
-                                <option value="Licence d’Informatique générale">Licence d’Informatique générale</option>
-                                <option value="Concepteur développeur de solution mobiles et connecté">Concepteur développeur de solution mobiles et connecté</option>
-                                <option value="Manager en Ingénierie Informatique">Manager en Ingénierie Informatique</option>
-                                <option value="Business Analyste">Business Analyste</option>
+                                <option value="cg">Contrôleur de Gestion</option>
+                                <option value="dscg">DSCG</option>
+                                <option value="qhse">Responsable de systèmes de management QHSE</option>
+                                <option value="rhh">Responsable Ressources Humaines</option>
+                                <option value="mqpi">Manager Qualité et Processus Intelligents</option>
+                                <option value="bts_sio">BTS SIO, option SISR ou SLAM</option>
+                                <option value="ci">Codeur Informatique</option>
+                                <option value="lig">Licence d’Informatique générale</option>
+                                <option value="cdsmc">Concepteur développeur de solution mobiles et connecté</option>
+                                <option value="mii">Manager en Ingénierie Informatique</option>
+                                <option value="ba">Business Analyste</option>
                             </select>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-3">
-                            <label class="label-with-margin" for="level-2">Niveau d'entrée :</label>
+                            <label class="label-with-margin" for="level-choice-2">Niveau d'entrée :</label>
                         </div>
                         <div class="label-with-margin">
                             <select name="level-2" id="level-choice-2">
-                                <option value="L1">L1</option>
-                                <option value="L2">L2</option>
-                                <option value="L3">L3</option>
-                                <option value="M1">M1</option>
-                                <option value="M2">M2</option>
+                                <option value="L1" class="bts_cg dcg bts_sio ci lig cdsmc">L1</option>
+                                <option value="L2" class="dcg bts_sio ci lig cdsmc hidden">L2</option>
+                                <option value="L3" class="cg qhse rhh lig cdsmc mii hidden">L3</option>
+                                <option value="M1" class="dscg qhse rhh cdsmc mii ba hidden">M1</option>
+                                <option value="M2" class="mqpi mii ba hidden">M2</option>
                             </select> 
                         </div>
                     </div>
