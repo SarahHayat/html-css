@@ -263,3 +263,13 @@ input{
 	padding:3px 5px 3px 5px;
 	display: inline-block;
 }
+.conteiners-SP{
+	margin-left: 30px;
+}
+.conteiners_SP2{
+	margin-left: 30px;
+}
+
+.hidden {
+	display: none;
+}
