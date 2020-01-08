@@ -3,6 +3,9 @@
 	margin : 4px;
 	text-align: center;
 }
+p{
+	margin: 5px 5px 5px 5px;
+}
 .img {
 	text-decoration: none
 }
@@ -13,7 +16,6 @@
 	flex:1;
 	border-right: 5px solid #cf092f;
 }
-
 .education_situation {
 	background-color: #D3D3D3;
 }
@@ -65,10 +67,6 @@ input{
 	border-radius: 8px;
 	border:1px ridge black;
 	padding: 5px 5px 5px 5px;
-}
-.label-cordonnées{
-	min-width: 125px;
-	display: inline-block;
 }
 
 }
@@ -130,24 +128,9 @@ input{
 .menu .sub-menu li:hover {
 	background-color: #dfe0ea;
 
-
-
-}
-
-
-
-
-.label-scolarité{
-	min-width: 235px;
-	display: inline-block;
-}
-.label-parrain{
-	min-width: 121px;
-	display: inline-block;
-}
-
-.label-situation{
-	min-width: 168px;
+.label-with-margin{
+	margin: 5px 5px 5px 5px;
+	padding:5px 5px 5px 5px;
 	display: inline-block;
 }
 .row{
@@ -161,4 +144,25 @@ input{
 	flex-basis: 25%;
 }
 .col-3{
+	flex-basis: 37%;
+}
+.col-4{
+	flex-basis: 15%;
+}
+.col-5{
+	flex-basis: 75%;
+}
+.col-6{
+	flex-basis: 60%;
+}
+.margin-phase{
+	margin-left: 5px;
+}
+.margin-phase2{
+	margin-left: 10px;
+}
+.label-with-margin-phase2{
+	margin: 3px 5px 3px 5px;
+	padding:3px 5px 3px 5px;
+	display: inline-block;
 }
