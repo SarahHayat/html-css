@@ -9,6 +9,15 @@ p{
 .img {
 	text-decoration: none
 }
+.button{
+	text-align: center;
+	margin-top: 10px;
+}
+.button input{
+	height: 35px;
+    width: 50px;
+    font-weight: 500;
+}
 .flex {
 	display: flex;
 }
@@ -16,33 +25,41 @@ p{
 	flex:1;
 	border-right: 5px solid #cf092f;
 }
-
-.gestion {
+.back_gestion {
 	display: inline-block;
 	background-color: #F69D25;
-	color: #FBFFFB;
 	border-radius: 20%;
-	padding: 7px;
-	padding-right: 192px;
 	border-radius: 10px 100px / 120px;
+	width: 350px;
 }
-.management{
+.gestion {
+	color: #FBFFFB;
+	margin: 7px;
+}
+.back_management {
 	display: inline-block;
 	background-color: #C6D300;
-	color: #FBFFFB;
 	border-radius: 20%;
-	padding: 7px;
-	padding-right: 160px;
 	border-radius: 10px 100px / 120px;
+	width: 350px;
+	margin-top: 10px;
 }
-.informatique {
+.management{
+	color: #FBFFFB;
+	margin: 7px;
+}
+.back_informatique{
 	display: inline-block;
 	background-color: #23BAEF;
-	color: #FBFFFB;
 	border-radius: 20%;
-	padding: 7px;
-	padding-right: 160px;
 	border-radius: 10px 100px / 120px;
+	width: 350px;
+	margin-top: 10px;
+}
+.informatique {
+	color: #FBFFFB;
+	margin: 7px;
+
 }
 .education_situation {
 	background-color: #D3D3D3;
@@ -152,6 +169,7 @@ input{
 	width: 100px;
 	background-color: #cf092f;
 	border-radius: 100px;
+	transition: .8s;
 }
 .menu .container img {
 	position: absolute;
