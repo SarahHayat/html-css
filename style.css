@@ -102,16 +102,18 @@
 	padding: 10px;
 	
 }
-
+.first_choice {
+	border-right: 5px solid #cf092f;padding-right: 10px;
+}
 .back_gestion {
 	display: inline-block;
-	background-color: #f69d25;
+	background-color: #F69D25;
 	border-radius: 20%;
 	border-radius: 10px 100px / 120px;
 	width: 350px;
 	margin-top: 10px;
 	box-shadow: 5px 5px 10px grey;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 .gestion {
 	color: #FBFFFB;
@@ -132,7 +134,7 @@
 	width: 350px;
 	margin-top: 10px;
 	box-shadow: 5px 5px 10px grey;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 .management{
 	color: #FBFFFB;
@@ -152,8 +154,9 @@
 	border-radius: 10px 100px / 120px;
 	width: 350px;
 	margin-top: 10px;
+	padding-left: 10px;
+	margin-bottom: 5px;
 	box-shadow: 5px 5px 10px grey;
-	margin-bottom: 10px;
 }
 .informatique {
 	color: #FBFFFB;
@@ -166,30 +169,9 @@
 	margin: 10px 0px 10px 0px;
 	padding-left: 10px;
 	box-shadow: 5px 5px 13px grey;
-
-}
-
-.contact_title {
-	margin-top: 0px;
-	margin-bottom: 38px;
-}
-.back_contact {
-	background-color: rgba(171, 172, 167, 0.42);
-	box-shadow: 5px 5px 10px grey;
-	border-radius: 25px 25px 25px 25px;
-	margin-bottom: 10px;
-	padding: 10px 15px 10px 10px;
-
-}
-.coordonnées_title {
-	margin-top: 10px;
 }
 .education_situation {
-	background-color: rgba(245, 244, 4, 0.24);
-	border-radius: 25px 25px 25px 25px;
-	box-shadow: 5px 5px 10px grey;
-	padding-left: 10px;
-	padding-top: 2px;
+	background-color: #D3D3D3;
 }
 
 .button{
@@ -310,7 +292,6 @@ input{
 }
 .margin-phase2{
 	margin-left: 10px;
-
 }
 .label-with-margin-phase2{
 	margin: 3px 5px 3px 5px;
