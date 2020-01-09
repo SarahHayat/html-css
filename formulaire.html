@@ -299,144 +299,151 @@
                     </div>
                 </div>
             </section>
-            <div class="col-1 margin-phase2">
-                <section class="contact">
-                    <div>
-                        <h2>Vos coordonnées</h2>
-                        <div class="row">
-                            <div class="col-3">
-                                <input type="radio" id="madame" name="civility" value="madame" required />
-                                <label class="label-with-margin" for="madame">Madame</label>
+            <div class="col-1 margin-phase2 ">
+                <div>
+                    <h2 class="contact_title"> Informations de contact </h2>
+                </div>
+                <div class="back_contact">
+                    <section class="contact">
+                        <div>
+                            <h2 class="coordonnées_title">Vos coordonnées</h2>
+                            <div class="row">
+                                <div class="col-2">
+                                    <input type="radio" id="madame" name="civility" value="madame" required />
+                                    <label class="label-with-margin" for="madame">Madame</label>
+                                </div>
+                                <div class="col-3">
+                                    <input type="radio" id="monsieur" name="civility" value="monsieur" required />
+                                    <label class="label-with-margin" for="monsieur">Monsieur</label>
+                                </div>
                             </div>
-                            <div class="col-3">
-                                <input type="radio" id="monsieur" name="civility" value="monsieur" required />
-                                <label class="label-with-margin" for="monsieur">Monsieur</label>
+                            <div class="row">
+                                <div class="col-2">
+                                    <label class="label-with-margin" for="last_name">Nom : </label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="text" id="last_name" placeholder="Nom" required>
+                                </div>
                             </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <label class="label-with-margin" for="first_name">Prénom : </label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="text" id="first_name" placeholder="Prénom" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <label class="label-with-margin" for="adress">Adresse : </label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="text" id="adress" placeholder="Adresse" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <label class="label-with-margin" for="pc">Code postal : </label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="text" id="pc" placeholder="Code postal" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <label class="label-with-margin" for="city">Ville : </label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="text" id="city" placeholder="Ville" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <label class="label-with-margin" for="phone">Tél. fixe : </label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="tel" id="phone" placeholder="Tél. fixe">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <label class="label-with-margin" for="cellphone">Portable : </label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="tel" id="cellphone" placeholder="Portable" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <label class="label-with-margin" for="mail">E-mail : </label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="email" id="mail" placeholder="E-mail" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <label class="label-with-margin" for="birth_date">Date de naissance : </label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="date" id="birth_date" placeholder="Date de naissance" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <label class="label-with-margin" for="nationality">Nationalité : </label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="francaise" name="nationality" value="francaise" required />
+                                    <label class="label-with-margin" for="francaise">Française</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="UE" name="nationality" value="UE" required />
+                                    <label class="label-with-margin" for="UE">UE</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="horsUE" name="nationality" value="horsUE" required />
+                                    <label class="label-with-margin" for="horsUE">Hors UE</label>
+                                </div>
+                            </div>
+                            <section class="contact_details">
+                                <h2>Votre scolarité</h2>
+                                <div class="row">
+                                    <div class="col-1">
+                                        <label class="label-with-margin" for="current_training">Niveau de formation actuel :
+                                        </label>
+                                    </div>
+                                    <div class="col-2">
+                                        <input type="text" id="current_training" name="current_training" placeholder="Niveau actuel"
+                                               required />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-1">
+                                        <label class="label-with-margin" for="current_establishment">Etablissement actuel (nom et
+                                            ville) :</label>
+                                    </div>
+                                    <div class="col-2">
+                                        <input type="text" id="current_establishment" name="current_establishment"
+                                               placeholder="Etablissement actuel" required />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-1">
+                                        <label class="label-with-margin" for="last_diploma">Dernier diplôme obtenu : </label>
+                                    </div>
+                                    <div class="col-2">
+                                        <input type="text" id="last_diploma" name="last_diploma" placeholder="Dernier diplôme"
+                                               required />
+                                    </div>
+                                </div>
+                            </section>
                         </div>
-                        <div class="row">
-                            <div class="col-2">
-                                <label class="label-with-margin" for="last_name">Nom : </label>
-                            </div>
-                            <div class="col-2">
-                                <input type="text" id="last_name" placeholder="Nom" required>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-2">
-                                <label class="label-with-margin" for="first_name">Prénom : </label>
-                            </div>
-                            <div class="col-2">
-                                <input type="text" id="first_name" placeholder="Prénom" required>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-2">
-                                <label class="label-with-margin" for="adress">Adresse : </label>
-                            </div>
-                            <div class="col-2">
-                                <input type="text" id="adress" placeholder="Adresse" required>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-2">
-                                <label class="label-with-margin" for="pc">Code postal : </label>
-                            </div>
-                            <div class="col-2">
-                                <input type="text" id="pc" placeholder="Code postal" required>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-2">
-                                <label class="label-with-margin" for="city">Ville : </label>
-                            </div>
-                            <div class="col-2">
-                                <input type="text" id="city" placeholder="Ville" required>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-2">
-                                <label class="label-with-margin" for="phone">Tél. fixe : </label>
-                            </div>
-                            <div class="col-2">
-                                <input type="tel" id="phone" placeholder="Tél. fixe">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-2">
-                                <label class="label-with-margin" for="cellphone">Portable : </label>
-                            </div>
-                            <div class="col-2">
-                                <input type="tel" id="cellphone" placeholder="Portable" required>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-2">
-                                <label class="label-with-margin" for="mail">E-mail : </label>
-                            </div>
-                            <div class="col-2">
-                                <input type="email" id="mail" placeholder="E-mail" required>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-2">
-                                <label class="label-with-margin" for="birth_date">Date de naissance : </label>
-                            </div>
-                            <div class="col-2">
-                                <input type="date" id="birth_date" placeholder="Date de naissance" required>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-2">
-                                <label class="label-with-margin" for="nationality">Nationalité : </label>
-                            </div>
-                            <div>
-                                <input type="radio" id="francaise" name="nationality" value="francaise" required />
-                                <label class="label-with-margin" for="francaise">Française</label>
-                            </div>
-                            <div>
-                                <input type="radio" id="UE" name="nationality" value="UE" required />
-                                <label class="label-with-margin" for="UE">UE</label>
-                            </div>
-                            <div>
-                                <input type="radio" id="horsUE" name="nationality" value="horsUE" required />
-                                <label class="label-with-margin" for="horsUE">Hors UE</label>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                    </section>
 
-                <section class="contact_details">
-                    <h2>Votre scolarité</h2>
-                    <div class="row">
-                        <div class="col-1">
-                            <label class="label-with-margin" for="current_training">Niveau de formation actuel :
-                            </label>
-                        </div>
-                        <div class="col-2">
-                            <input type="text" id="current_training" name="current_training" placeholder="Niveau actuel"
-                                required />
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-1">
-                            <label class="label-with-margin" for="current_establishment">Etablissement actuel (nom et
-                                ville) :</label>
-                        </div>
-                        <div class="col-2">
-                            <input type="text" id="current_establishment" name="current_establishment"
-                                placeholder="Etablissement actuel" required />
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-1">
-                            <label class="label-with-margin" for="last_diploma">Dernier diplôme obtenu : </label>
-                        </div>
-                        <div class="col-2">
-                            <input type="text" id="last_diploma" name="last_diploma" placeholder="Dernier diplôme"
-                                required />
-                        </div>
-                    </div>
-                </section>
+
+
+
 
                 <section class="other_choice">
                     <h2>Vos autres souhaits de formation à ITESCIA</h2>
@@ -534,6 +541,7 @@
                         </div>
                     </div>
                 </section>
+                </div>
 
                 <div class="education_situation">
                     <section class="continuing_education">
@@ -640,16 +648,22 @@
                         </div>
                     </section>
                 </div>
-                <div class="button-div">
-                    <div>
-                        <button class="button">
-                            <span>Valider</span>
-                        </button>
-                    </div>
-                </div>
+
             </div>
         </div>
     </form>
+     <div>
+         <div class="button-div">
+             <div>
+                 <button class="button">
+                     <span>Valider</span>
+                 </button>
+             </div>
+         </div>
+     </div>
+    <div>
+
+    </div>
     <!-- debut footer -->
     <footer class="footer" id="footer">
         <!-- adresses ITESCIA -->
