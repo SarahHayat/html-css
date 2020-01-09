@@ -10,7 +10,7 @@
 }
 .banner {
 	position: absolute;
-	background-image:url(images/bandeau.png);
+	background-image:url(../images/bandeau.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -102,9 +102,7 @@
 	padding: 10px;
 
 }
-.first_choice {
-	border-right: 5px solid #cf092f;padding-right: 10px;
-}
+
 .back_gestion {
 	display: inline-block;
 	background-color: #F69D25;
@@ -191,8 +189,12 @@
 	box-shadow: 5px 5px 10px grey;
 	padding-left: 10px;
 	padding-top: 2px;
+	
 }
 
+.button-div {
+	margin-bottom: 10px;
+}
 .button{
 	text-align: center;
 	margin-top: 10px;
