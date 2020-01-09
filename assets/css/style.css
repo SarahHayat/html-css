@@ -65,7 +65,7 @@
 	text-align: center;
 	font-size: large;
 	text-decoration : none;
-
+	border-radius: 20px;
 }
 
 .menu .sub-menu a {
@@ -113,16 +113,14 @@
 	box-shadow: 5px 5px 10px grey;
 	margin-bottom: 5px;
 }
-.gestion {
-	color: #FBFFFB;
-	margin: 7px;
-}
+
 .fond_gestion {
 	background-color: rgba(246, 149, 2, 0.21);
 	border-radius: 20px;
 	padding-left: 10px;
 	margin: 10px 0px 10px 0px;
 	box-shadow: 5px 5px 13px grey;
+	padding-bottom: 2%;
 }
 .back_management {
 	display: inline-block;
@@ -134,16 +132,14 @@
 	box-shadow: 5px 5px 10px grey;
 	margin-bottom: 5px;
 }
-.management{
-	color: #FBFFFB;
-	margin: 7px;
-}
+
 .fond_management {
 	background-color: rgba(160, 246, 9, 0.21);
 	border-radius: 20px;
 	margin: 10px 0px 10px 0px;
 	padding-left: 10px;
 	box-shadow: 5px 5px 13px grey;
+	padding-bottom: 2%;
 }
 .back_informatique{
 	display: inline-block;
@@ -155,23 +151,23 @@
 	padding-left: 10px;
 	margin-bottom: 5px;
 	box-shadow: 5px 5px 10px grey;
-}
-.informatique {
-	color: #FBFFFB;
-	margin: 7px;
 
 }
+
 .fond_informatique {
 	background-color: rgba(51, 210, 246, 0.21);
 	border-radius: 20px;
-	margin: 10px 0px 10px 0px;
+	margin: 10px 0px 0px 0px;
 	padding-left: 10px;
 	box-shadow: 5px 5px 13px grey;
+	padding-bottom: 2%;
 }
 
 .contact_title {
-	margin-top: 0px;
-	margin-bottom: 38px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+
 }
 .back_contact {
 	background-color: rgba(171, 172, 167, 0.42);
@@ -179,9 +175,31 @@
 	border-radius: 25px 25px 25px 25px;
 	margin-bottom: 10px;
 	padding: 10px 15px 10px 10px;
+	padding-bottom: 2%;
 }
-.coordonnées_title {
-	margin-top: 10px;
+
+.back_grey {
+	display: inline-block;
+	background-color: #6f696e;
+	border-radius: 20%;
+	border-radius: 10px 100px / 120px;
+	width: 450px;
+	margin-top: 5px;
+	padding-left: 10px;
+	margin-bottom: 5px;
+	box-shadow: 5px 5px 10px grey;
+}
+
+.back_yellow {
+	display: inline-block;
+	background-color: rgba(255, 204, 14, 0.71);
+	border-radius: 20%;
+	border-radius: 10px 100px / 120px;
+	width: 450px;
+	margin-top: 5px;
+	padding-left: 10px;
+	margin-bottom: 15px;
+	box-shadow: 5px 5px 10px grey;
 }
 .education_situation {
 	background-color: rgba(245, 244, 4, 0.24);
@@ -189,7 +207,12 @@
 	box-shadow: 5px 5px 10px grey;
 	padding-left: 10px;
 	padding-top: 2px;
+	padding-bottom: 17.8%;
 	
+}
+.continuing_education{
+	padding-bottom: 5%;
+	padding-top: 1.5%;
 }
 
 .button-div {
@@ -330,6 +353,11 @@ input{
 
 .hidden {
 	display: none;
+}
+
+.h3_modif{
+	color: white;
+	margin: 7px;
 }
 
 
