@@ -198,6 +198,8 @@
 .button{
 	text-align: center;
 	margin-top: 10px;
+
+	margin-bottom: 15px;
 }
 .button input{
 	height: 35px;
