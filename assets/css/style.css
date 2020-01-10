@@ -239,6 +239,7 @@ body{
 	text-align: center;
 	display: flex;
 	color: #FFFFFD;
+
 }
 
 .col_address{
@@ -296,6 +297,8 @@ body{
  }
 .ULLL {
 	padding: 0px 0px 0px 0px;
+	margin-block-end: 0;
+	margin-block-start: 0;
 }
 
 p{
@@ -321,7 +324,7 @@ input{
 }
 .col-1{
 	flex-basis: 50%;
-	font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 .col-2{
 	flex-basis: 25%;
